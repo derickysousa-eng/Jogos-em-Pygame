@@ -1,1 +1,65 @@
+# Breakout em Python
+
+Um jogo inspirado no clássico **Breakout (Quebra Tijolos)**, desenvolvido em **Python** utilizando a biblioteca **Pygame**.
+
+## Funcionalidades
+
+* Controle da barra pelo teclado.
+* Bola com movimentação e colisões.
+* Blocos destrutíveis.
+* Sistema de pontuação.
+* Condição de vitória ao destruir todos os blocos.
+* Encerramento da partida quando a bola sai da tela.
+
+## Tecnologias
+
+* Python 3
+* Pygame
+
+## Como executar
+
+1. Instale o Python.
+2. Instale o Pygame:
+
+```bash
+pip install pygame
+```
+
+3. Execute o arquivo principal:
+
+```bash
+python nome_do_arquivo.py
+```
+
+## Controles
+
+* **→ (Seta Direita):** Move a barra para a direita.
+* **← (Seta Esquerda):** Move a barra para a esquerda.
+
+## Estrutura do projeto
+
+```text
+📁 Breakout
+ ├── main.py
+ └── README.md
+```
+
+## Objetivo
+
+Destruir todos os blocos utilizando a bola, evitando que ela ultrapasse a barra do jogador.
+
+## Melhorias futuras
+
+* Sistema de vidas.
+* Níveis com diferentes dificuldades.
+* Blocos com resistência.
+* Power-ups.
+* Efeitos sonoros e música.
+* Menu inicial.
+* Sistema de recordes.
+* Animações e melhorias visuais.
+
+## Autor
+
+Desenvolvido por **Dericky Eduardo**.
 
